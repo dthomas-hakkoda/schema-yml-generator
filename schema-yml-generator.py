@@ -114,7 +114,7 @@ def columns_check():
 
     list_keys= list(list_of_dict[0].keys())
 
-    expected_keys = ["Target Table", "Target Table Description", "Target Column Description", "dbt test"] 
+    expected_keys = ["Target Table", "Target Table Description", "Target Column", "Target Column Description", "dbt test"] 
         
     check = all(item in list_keys for item in expected_keys)
 
