@@ -92,6 +92,7 @@ def csv_to_dict (csv_location):
     except:
         print('\nUnable to read specified csv\n\n' + csv_location + '\n')
         print('End of the program\n')
+        quit()
 
 
 
@@ -113,8 +114,7 @@ def columns_check():
 
     list_keys= list(list_of_dict[0].keys())
 
-    expected_keys = ["Target Table", "Target Table Description", 
-                    "Target ", "Target Column Description", "dbt test"] 
+    expected_keys = ["Target Table", "Target Table Description", "Target Column Description", "dbt test"] 
         
     check = all(item in list_keys for item in expected_keys)
 
@@ -124,7 +124,7 @@ def columns_check():
             print(c)        
 
         print('\n\nEnd of the program\n')
-        os._exit 
+        quit()
 
 ############################################################################
 ################################### Step 3 #################################
