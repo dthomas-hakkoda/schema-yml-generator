@@ -15,6 +15,8 @@
   - The program expects a csv file with the following columns: 
     "Target Table", "Target Table Description", "Target Colum", "Target Column Description", "dbt test"
 
+  - **Is advised to use the same csv format as the one obtained by downloading a Google sheets file as csv.** Check the example listed below for further details. 
+  
   - To specify the path of the file use the following **_required_**  parameter:
            
         --csv_loc: Location of tha csv file to be processed. Wrap the path with "" if it contains any space on it. Ex: "a/b/c/.../path with space/"')
