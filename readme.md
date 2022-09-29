@@ -27,9 +27,9 @@
   
     - Example: path/myfile.csv -> path/myfile_schema.yml
 
-  - An example of an expected csv can be found here: https://docs.google.com/spreadsheets/d/1UYNBYPsC4R_N_NTtaKFRfUk_4MsvdlRygyQDG9iMwwI/edit?usp=sharing
+  - An example of an expected csv can be found [here](https://docs.google.com/spreadsheets/d/1UYNBYPsC4R_N_NTtaKFRfUk_4MsvdlRygyQDG9iMwwI/edit?usp=sharing).
 
-  - An example of the expected output can be found here: https://drive.google.com/file/d/14GaFrm3xW1yd7wIwExLFuwggIIeH7c-W/view?usp=sharing
+  - An example of the expected output can be found [here](https://drive.google.com/file/d/14GaFrm3xW1yd7wIwExLFuwggIIeH7c-W/view?usp=sharing).
 
 ## Code summary
 - What:
