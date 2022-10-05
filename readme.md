@@ -6,7 +6,7 @@
 ## Change Log:
   09/26/2022 - Created the .py file
 
-## How to use this script
+## Usage
 
   - In your terminal runf the following command:
                
