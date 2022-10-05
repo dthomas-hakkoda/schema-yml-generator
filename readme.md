@@ -26,6 +26,15 @@
   - The output of the file is a dbt schema.yml file. It will be created in the same location of the csv file with the csv file name + the substring + _ _schema.yml_. 
   
     - Example: path/myfile.csv -> path/myfile_schema.yml
+  
+  - This version only support dbt tests formats like:
+    - unique
+    - accepted_vaues 
+    - not_null
+  - Complex test are not currently supported, example:
+    - relationships:
+              to: ref('customers')
+              field: id
 
   - An example of an expected csv as input can be found [here](https://docs.google.com/spreadsheets/d/1UYNBYPsC4R_N_NTtaKFRfUk_4MsvdlRygyQDG9iMwwI/edit?usp=sharing).
 
